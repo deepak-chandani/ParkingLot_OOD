@@ -69,11 +69,12 @@ We can come up with following relationships/associations:
 - `Vehicle` is parked at `ParkingSpot` (containment)
 - `ParkingLot` is located at some `Address` & has multiple `Floors` (`Floors[]`)
 - `ParkingLot` has `SignageBoard` to display availability of spots
-- When drives exits he provides parking `Ticket` & based on that charges are calculated `(exitTime - entryTime) * HOURLY_RATE`
+- When drives exits he provides parking `Ticket` & based on that charges are calculated
+  - `(exitTime - entryTime) * HOURLY_RATE`
 
 > 🧠 think about any design patterns which can be leveraged in these use-cases
 
 ### Step 3: Writing implementation code
 
-- All the entities can be found inside `src/models` directory
-- unit tests can be found inside `src/models/__test__` directory
+- All the entities can be found inside [`src/models`](./src/models) directory
+- unit tests can be found inside [`src/models/__test__`](./src/models/__test__) directory
