@@ -35,7 +35,7 @@ Queries in given requirements: 🤷‍♂️
 
 - **Q1:** What different `Vehicle` we are planning to be parked ? eg: Bike, Car, Bus ?
   - this gives us idea about size of vehicles being parked
-- **Q2:** How do we know if `Vehicle` has been parked on a `spot` ? will that be decided by system while issuing ticket ?
+- **Q2:** How do we know if `Vehicle` has been parked on a `spot` ? will that be decided by system while issuing ticket ? or driver can park at any vacant spot ?
   - important because we need to keep track of free/available spots inside `ParkingLot`
 - **Q3:** when driver exits, How are charges calculated 💵 ? hourly ?
   - gives us idea about what information needs to be recorded when issuing ticket & when `Vehicle` exits
