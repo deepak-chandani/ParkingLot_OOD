@@ -70,6 +70,9 @@ We can come up with following relationships/associations:
 
 > 🧠 think about any design patterns which can be leveraged in these use-cases
 
+### Class Diagram
+<img src="public/OOD.png" alt="class diagram"></a>
+
 ### Step 3: Writing implementation code
 
 - All the entities can be found inside [`src/models`](./src/models) directory
