@@ -3,10 +3,8 @@
 (Object Oriented Design using `TypeScript`)
 
 ### Why OOD ?
-
-I have been looking into TypeScript & thought of building out something which uses TypeScript a lot.
-So, I thought to try out this problem statement.
-and while solving this, document my thought process, approach & ways to break down the problem
+- I have been looking into TypeScript & thought of building out something which uses TypeScript a lot.
+- So, I thought to try out this problem statement. and while solving this, **document my thought process, approach & ways to break down the problem**
 
 ## Problem Statement (high level requirements)
 
